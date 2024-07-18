@@ -1,0 +1,150 @@
+.main{
+    height: 75vh;
+    width: 80vw;
+    
+    margin-left: 10vw;
+    margin-top: 20px;
+}
+
+
+
+.text{
+    font-size: 1.8rem;
+    font-weight: 500 ;
+    margin-bottom: 5px;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.btn button{
+    background-color: #5e88d1;
+    padding: 10px;
+    color: aqua;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover {
+    font-size: 1.02rem;
+}
+
+.summary{
+    font-size: 1.5rem;
+    font-weight: 500 ;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.word-count{
+    margin-left: 20px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(147, 159, 153);
+}
+
+.time-to-read{
+    margin-left: 20px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(96, 162, 103);
+}
+
+.preview{
+    font-size: 1.8rem;
+    font-weight: 500 ;
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#my-box{
+   height: 25vh;
+   width: 97%;
+   margin-left: 20px;
+   padding: 5px; 
+}
+
+.preview-text{
+    margin-left: 20px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    word-wrap: inherit;
+    overflow-wrap: break-word;
+    overscroll-behavior: inherit;
+    border: 1px solid rgb(52, 114, 64);
+    border-radius: 10px;
+    min-height: 20vh;
+    padding: 10px;
+}
+
+
+@media (max-width:600px) {
+    #my-box{
+        height: 25vh;
+        width: 95%;
+        border: 2px solid rgb(134, 134, 90);
+        margin-left: 15px;
+        margin-top: 1vh;
+        padding: 5px;
+    }
+
+    .main{
+        min-height:90vh;
+        margin: 0;
+        width: 95vw;
+    }
+
+    .text{
+        margin-left: 15px;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    
+    .btn{
+        margin-left: 15px;
+        margin-top: 2vh;
+    }
+
+    .summary{
+        margin-left: 15px;
+        font-size: 2rem;
+    }
+
+    .word-count{
+        margin-left: 30px;
+        font-size: 1.3rem;
+    }
+
+    .time-to-read{
+        margin-left: 30px;
+        font-size: 1.3rem;
+    }
+
+    .preview{
+        margin-left: 15px;
+        font-size: 2rem;
+    }
+
+    .preview-text{
+        margin-left: 15px;
+        min-height: 26vh;
+        width: 95%;
+        padding: 5px;
+        margin-top: 1vh;
+        border: 2px solid rgb(135, 12, 51);
+        font-size: 1.2rem;
+        word-wrap: inherit;
+        overflow-wrap: break-word;
+        overscroll-behavior: inherit;
+    }
+}
